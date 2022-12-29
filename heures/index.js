@@ -105,7 +105,7 @@ function convert () {
 
     }
         doc.text("Le total est donc de " + nbtotalheures, 70, 290);
-        doc.save("heures_salarié " + employeename + " " +  month + year + ".pdf");
+        doc.save("heures_salarié " + employeename + " " +  month + " " + year + ".pdf");
         
         
 
