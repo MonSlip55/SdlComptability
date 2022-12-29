@@ -61,8 +61,8 @@ function convert () {
         doc.text(employeename, 15, 60);
         doc.text("Voici les minutes : ", 35, 85);
         doc.text("Voici les heures : ", 125, 85);
-        doc.text("Cela fait " + totalmin + " minutes en tout", 10,270);
-        doc.text("Cela fait " + totalhrs + " heures en tout", 120,270);
+        doc.text("Cela fait " + totalmin + " minutes en tout", 35,270);
+        doc.text("Cela fait " + totalhrs + " heures en tout", 130,270);
         
         doc.line(100, 90, 100, 250);
 
