@@ -24,7 +24,7 @@ function convert () {
     final = final.reduce(function(a, b) { return parseInt(a, 10) + parseInt(b, 10); }, 0);
     mintohrs2 = Math.floor(totalmin/60)
     var remainingMinutes = totalmin % 60;
-    var nbtotalheures = (final + mintohrs2) + ":" + remainingMinutes;
+    var nbtotalheures = (final + mintohrs2) + "h" + remainingMinutes;
 
 
       
