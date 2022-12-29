@@ -1,3 +1,3 @@
 function heures() {
-    window.location.href = '../heures/index;
+    window.location.href = '../heures/index.html;
 }
