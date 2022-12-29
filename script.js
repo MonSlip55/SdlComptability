@@ -1,3 +1,3 @@
 function heures() {
-    window.location.href = '../heures/index';
+    window.location.href = "https://monslip55.github.io/SdlComptability/heures/";
 }
