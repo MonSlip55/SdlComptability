@@ -1,5 +1,5 @@
 function heures() {
-    window.location.href = '../heures/main';
+    window.location.href = 'heures/main';
 }
 function stedelorraine() {
     window.location = "https://www.societedelorraine.fr"
