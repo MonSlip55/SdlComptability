@@ -1,0 +1,111 @@
+body {
+    background: rgb(34, 34, 34);
+    
+}
+::selection {
+    background-color: rgb(230, 157, 0);
+  }
+
+.image { 
+    margin : 10px;
+    display : flex; 
+    align-items : flex-start;
+    justify-content : center;
+ }
+
+img {
+     width: 900px;
+     
+ }
+
+.buttons { 
+     display : flex; 
+     justify-content : space-evenly;
+     margin-top: 100px;
+ }
+
+.button { 
+    position : relative;
+    margin: 0px ;
+    padding : 0px;
+    width: 300px;
+    height : 400px;
+    border-radius: 15px;
+    transition: all 120ms ease-out;
+ }
+.text {
+    display : flex; 
+    margin : 0;
+    margin-top : 55%;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    backdrop-filter: blur(2px);
+ }
+ .heurebtn, .stedelorrainebtn{
+    opacity: 0%;
+    transition: all 150ms ease-in 150ms;
+ }
+.heure { 
+    background-image: url('imgheure.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+.stedelorraine { 
+    background-image: url('societe-logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+
+
+.button:hover{ 
+     transform: translateY(-10px);
+     cursor: pointer;    
+}
+.button:hover .text { 
+    opacity: 100%;
+}
+.button:hover .blur {
+    backdrop-filter: blur(6px);
+}
+
+.blur {
+    position: absolute;
+    margin : 0;
+    padding : 0;
+    left: 0px; 
+    bottom: 0px;
+    top : 10px;
+
+}
+.title {
+    color: aliceblue;
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 3rem;
+    width: 0%;
+    animation: 
+        typing 1s steps(20, end) forwards,
+        blink .8s infinite;
+  }
+
+.textbox{
+    display: block;
+    width: min-content; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
