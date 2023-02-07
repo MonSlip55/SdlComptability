@@ -26,16 +26,13 @@ function convert () {
     var eur = 0.00
     //Calcul en argent
     var toeur = document.getElementById("paie").value
-    if (remainingMinutes > 0) {
-        remainingMinutes = 15
+    if (remainingMinutes == 15) {
         eur += 2.50
     }
-    if (remainingMinutes > 15) { 
-        remainingMinutes = 30
+    if (remainingMinutes == 30) { 
         eur += 5.00
     }
-    if (remainingMinutes > 30) { 
-        remainingMinutes = 45
+    if (remainingMinutes == 45) { 
         eur += 7.25
     }
     if (remainingMinutes > 45) {
