@@ -21,7 +21,7 @@ function convert () {
     final = hrs.split(",");
     final = final.reduce(function(a, b) { return parseInt(a, 10) + parseInt(b, 10); }, 0);
     mintohrs2 = Math.floor(totalmin/60)
-    var remainingMinutes = totalmin % 60;
+    var remainingMinutes = totalmin;
     
     var eur = 0.00
     //Calcul en argent
